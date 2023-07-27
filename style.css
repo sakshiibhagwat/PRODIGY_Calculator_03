@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@500&family=Ysabeau+Office:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora';
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ysabeau Office', sans-serif;
+ background-image: url(filip-baotic-KGuADKmgiCU-unsplash.jpg);
+}
+h2{
+    color: rgb(97, 248, 248);
+}
+.container{
+     border: 2px solid whitesmoke;
+     border-radius: 15px;
+     padding: 20px;
+     background: transparent;
+     box-shadow: 10px 10px 20px 8px rgb(97, 248, 248) ;
+}
+input{
+    height: 100px;
+    width: 100%;
+    outline: none;
+    background: transparent;
+    color: rgb(97, 248, 248) ;
+    font-size: 33px;
+    text-align: right;
+    cursor: default;
+    
+}
+input::placeholder{
+    border: none;
+    color: rgb(97, 248, 248) ;
+}
+button{
+    
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 50%;
+    background: transparent;
+    color: rgb(97, 248, 248);
+    font-size: 27px;
+    box-shadow: 3px 3px 15px 3px rgb(97, 248, 248);
+    cursor: pointer;
+
+}
+button:hover{
+    box-shadow: 1px 1px 15px 1px rgb(253, 213, 80);
+}
+.operator{
+    background-color: rgb(252, 238, 50);
+    color:  rgb(58, 56, 56);
+    box-shadow: 3px 3px 15px 3px rgb(252, 238, 50);
+}
